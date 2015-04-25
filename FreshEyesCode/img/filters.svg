@@ -109,19 +109,9 @@ Note: use `web.archive.org` for old links
 				<feFuncB type="gamma" exponent=".9"/>
 			</feComponentTransfer>
 		</filter>
-		<filter id="low-contrast" color-interpolation-filters="sRGB">
-			<!-- <feComponentTransfer>
-				slope = [amount] intercept = (1 - [amount] / 2)
-				<feFuncR type="linear" slope=".5" intercept=".25"/>
-				<feFuncG type="linear" slope=".5" intercept=".25"/>
-				<feFuncB type="linear" slope=".5" intercept=".25"/>
-			</feComponentTransfer> -->
-			<feColorMatrix type="hueRotate" values="[180]"/>
-			<feComponentTransfer>
-				<feFuncR type="identity" exponent=".9"/>
-				<feFuncG type="identity" exponent=".9"/>
-				<feFuncB type="identity" exponent=".9"/>
-			</feComponentTransfer>
+		<filter id="low-contrast" >
+			<feColorMatrix type="hueRotate" values="180deg"/>
+			<feColorMatrix type="saturate" values="5"/>
 		</filter>
 	</defs>
 </svg>
