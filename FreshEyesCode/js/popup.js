@@ -12,15 +12,8 @@ var ul = document.createElement('ul'),
     current = 'normal',
     vision = {
       normal: '',
-      protanopia: '1%',
-      protanomaly: '1%',
-      deuteranopia: '1%',
-      deuteranomaly: '6%',
-      tritanopia: '0.1%',
-      tritanomaly: '0.01%',
-      achromatopsia: '0.00001%',
-      achromatomaly: '0.00001%',
-      'low-contrast': '6%'
+   
+      'HueRotate': '6%'
     }
 
 Object.keys(vision).forEach(function (el) {
