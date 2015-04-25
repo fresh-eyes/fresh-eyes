@@ -23,8 +23,29 @@ Note: use `web.archive.org` for old links
 				0 0 1 0 0
 				0 0 0 1 0"/>
 		</filter>
+
+		<filter id="RedSeperate">
+			<feComponentTransfer>
+			<feFuncG type="table" tableValues="0.0 0.75 0.0 0.5"/>
+			</feComponentTransfer>
+
+			<feComponentTransfer>
+			<feFuncR type="table" tableValues="0.0 0.75 0.0 0.5"/>
+			</feComponentTransfer>
+
+			<feComponentTransfer>
+			<feFuncB type="table" tableValues="0.0 1.0 0.0 1.0"/>
+			</feComponentTransfer>
+		</filter>   
+
+		<filter id="GreenSeperate">
+			<feColorMatrix values="1 0 0 0 0
+				0 0 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
 		
-			<filter id="HueRotate" >
+		<filter id="HueRotate" >
 			<feColorMatrix type="hueRotate" values="180deg"/>
 			<feColorMatrix type="saturate" values="5"/>
 		</filter>

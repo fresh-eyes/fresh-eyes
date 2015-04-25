@@ -12,7 +12,8 @@ var ul = document.createElement('ul'),
     current = 'normal',
     vision = {
       normal: '',
-   
+      'RedSeperate':'6%',
+      'GreenSeperate':'6%',
       'HueRotate': '6%'
     }
 
