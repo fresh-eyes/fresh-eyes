@@ -25,17 +25,18 @@ Note: use `web.archive.org` for old links
 		</filter>
 
 		<filter id="RedSeperate">
+
 			<feComponentTransfer>
+			<feFuncR type="table" tableValues="0.0 0.75 0.85 1.0"/>
+			</feComponentTransfer>
+
+			<!--<feComponentTransfer>
 			<feFuncG type="table" tableValues="0.0 0.75 0.0 0.5"/>
 			</feComponentTransfer>
 
 			<feComponentTransfer>
-			<feFuncR type="table" tableValues="0.0 0.75 0.0 0.5"/>
-			</feComponentTransfer>
-
-			<feComponentTransfer>
 			<feFuncB type="table" tableValues="0.0 1.0 0.0 1.0"/>
-			</feComponentTransfer>
+			</feComponentTransfer>-->
 		</filter>   
 
 		<filter id="GreenSeperate">
@@ -45,9 +46,46 @@ Note: use `web.archive.org` for old links
 				0 0 0 1 0"/>
 		</filter>
 		
+
 		<filter id="HueRotate" >
 			<feColorMatrix type="hueRotate" values="180deg"/>
 			<feColorMatrix type="saturate" values="5"/>
 		</filter>
+		<filter id="rowan">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<!--<filter id="ana">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="marcio">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="benji">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="sean">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="cameron">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter> -->
 	</defs>
 </svg>

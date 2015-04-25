@@ -12,9 +12,16 @@ var ul = document.createElement('ul'),
     current = 'normal',
     vision = {
       normal: '',
+
       'RedSeperate':'6%',
       'GreenSeperate':'6%',
-      'HueRotate': '6%'
+      'HueRotate': '6%',
+      //rowan: '6%',
+      // ana: '6%',
+      // marcio: '6%',
+      // benji: '6%',
+      // sean: '6%',
+      // cameron: '6%'
     }
 
 Object.keys(vision).forEach(function (el) {
