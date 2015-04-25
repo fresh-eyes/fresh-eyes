@@ -7,8 +7,8 @@
 	"description": "Adapts webpage for color blind people.",
 	"version": "1.0",
 	
-	// add our webpage
-	// "homepage_url": "http://lvivski.com/spectrum",
+
+	"homepage_url": "https://github.com/fresh-eyes/fresh-eyes",
 
 	"browser_action": {
 		"default_title": "FreshEyes",

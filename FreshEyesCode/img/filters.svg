@@ -23,10 +23,45 @@ Note: use `web.archive.org` for old links
 				0 0 1 0 0
 				0 0 0 1 0"/>
 		</filter>
-		
-			<filter id="HueRotate" >
+		<filter id="HueRotate" >
 			<feColorMatrix type="hueRotate" values="180deg"/>
 			<feColorMatrix type="saturate" values="5"/>
+		</filter>
+		<filter id="rowan">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="ana">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="marcio">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="benji">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="sean">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
+		</filter>
+		<filter id="cameron">
+			<feColorMatrix values="1 0 0 0 0
+				0 1 0 0 0
+				0 0 1 0 0
+				0 0 0 1 0"/>
 		</filter>
 	</defs>
 </svg>
