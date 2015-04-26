@@ -9,22 +9,14 @@ $.all = function (selector, context) {
 }
 
 var ul = document.createElement('ul'),
-    current = 'normal',
+    current = 'NoFilter',
     vision = {
-      normal: '',
-
-      'RedSeparate':'6%',
-      'GreenSeparate':'6%',
+       NoFilter: '',
       'HueRotate': '6%',
       'TrueColor': '6%',
       'TrueColorG': '6%',
       'TrueColorD': '6%',
-      'TrueColorTaylor': '6%',
-      rowan: '6%',
-      ana: '6%',
-      marcio: '6%',
-      benji: '6%',
-      cameron: '6%'
+      'TrueColorN': '6%',
     }
 
 Object.keys(vision).forEach(function (el) {

@@ -17,36 +17,13 @@ Note: use `web.archive.org` for old links
 -->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
 	<defs>
-		<filter id="normal">
+		<filter id="NoFilter">
 			<feColorMatrix values="1 0 0 0 0
 				0 1 0 0 0
 				0 0 1 0 0
 				0 0 0 1 0"/>
 		</filter>
-
-		<filter id="RedSeparate">
-
-			<feComponentTransfer>
-			<feFuncR type="table" tableValues="0.0 0.75 0.85 1.0"/>
-			</feComponentTransfer>
-
-			<!--<feComponentTransfer>
-			<feFuncG type="table" tableValues="0.0 0.75 0.0 0.5"/>
-			</feComponentTransfer>
-
-			<feComponentTransfer>
-			<feFuncB type="table" tableValues="0.0 1.0 0.0 1.0"/>
-			</feComponentTransfer>-->
-		</filter>   
-
-		<filter id="GreenSeparate">
-			<feColorMatrix values="1 0 0 0 0
-				0 0 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
-		</filter>
 		
-
 		<filter id="HueRotate" >
 			<feColorMatrix type="hueRotate" values="180deg"/>
 			<feColorMatrix type="saturate" values="4"/>
@@ -78,47 +55,12 @@ Note: use `web.archive.org` for old links
 				0     0     0     1 0"/>
 			<feColorMatrix type="saturate" values="0.75"/>
 		</filter>
-		<filter id="TrueColorT">
+		<filter id="TrueColorN">
 			<feColorMatrix values="
 				2.67 -1.12 -0.00  0 0
 			       -1.09  2.43  0.00  0 0
 			       -0.00 -0.00  1.00  0 0
 				0     0     0     1 0"/>
-		</filter>
-		<filter id="rowan">
-			<feColorMatrix values="
-				1 0 0 0 0
-				0 1 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
-		</filter>
-		<filter id="ana">
-			<feColorMatrix values="
-				1 0 0 0 0
-				0 1 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
-		</filter>
-		<filter id="marcio">
-			<feColorMatrix values="
-				1 0 0 0 0
-				0 1 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
-		</filter>
-		<filter id="benji">
-			<feColorMatrix values="
-				1 0 0 0 0
-				0 1 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
-		</filter>
-		<filter id="cameron">
-			<feColorMatrix values="
-				1 0 0 0 0
-				0 1 0 0 0
-				0 0 1 0 0
-				0 0 0 1 0"/>
 		</filter>
 	</defs>
 </svg>
