@@ -58,7 +58,7 @@ Note: use `web.archive.org` for old links
 			       -0.00 -0.00  1.00  0 0
 				0     0     0     1 0"/>
 		</filter>
-		<filter id="TrueColorGamma">
+		<filter id="TrueColorG">
 			<feColorMatrix values="
 				3.00 -1.00 -0.00  0 0
 			       -1.00  2.50  0.00  0 0
@@ -70,7 +70,7 @@ Note: use `web.archive.org` for old links
                                 <feFuncB type="gamma" amplitude="1" exponent="1.5" offset="0"/>
                         </feComponentTransfer>
 		</filter>
-		<filter id="TrueColorDesat">
+		<filter id="TrueColorD">
 			<feColorMatrix values="
 				3.00 -1.00 -0.00  0 0
 			       -1.00  2.50  0.00  0 0
